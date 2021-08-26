@@ -1,0 +1,23 @@
+{
+    "secret": "abc",
+    "url": "http://localhost:5000",
+    "id_house": 0,
+    "time_frequency": 1,
+    "cams": [
+        {
+            "id_cam": 2,
+            "path_cam":"192.0.0.1",
+            "type": "cam_outside"
+        },
+        {
+            "id_cam": 1,
+            "path_cam":"192.0.0.2",
+            "type": "cam_outside"
+        },
+        {
+            "id_cam": 0,
+            "path_cam":"192.0.0.3",
+            "type": "cam_door"
+        }
+    ]
+}
